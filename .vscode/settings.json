@@ -1,0 +1,20 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "dpg-d7oafepkh4rs73bm18g0-a.ohio-postgres.render.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "database": "dbcrypto_tf00",
+            "name": "dbcryto-render",
+            "username": "postgresiqv",
+            "password": "Fw6l1J33PO31X03Qu58PygtgfZQ8nGS4"
+        }
+    ]
+}

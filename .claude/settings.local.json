@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dbt init *)",
+      "Bash(pip install *)",
+      "Bash(python3 -m pip install dbt-core)",
+      "Bash(python *)",
+      "PowerShell($pythonPath = \"C:\\\\Python312\"; $currentPath = [Environment]::GetEnvironmentVariable\\(\"PATH\", [EnvironmentVariableTarget]::User\\); $newPath = \"$pythonPath;$currentPath\"; [Environment]::SetEnvironmentVariable\\(\"PATH\", $newPath, [EnvironmentVariableTarget]::User\\); Write-Host \"Python 3.12 adicionado ao PATH\"; python --version)",
+      "Bash(pip --version)",
+      "PowerShell(python --version)",
+      "PowerShell(Get-Command *)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\pip install dbt-core)",
+      "PowerShell(python3 --version)",
+      "PowerShell(C:\\\\Python312\\\\python --version)",
+      "PowerShell(C:\\\\Python312\\\\python -m pip install dbt-core)",
+      "PowerShell(C:\\\\Python312\\\\python -m dbt init)",
+      "PowerShell(C:\\\\Python312\\\\Scripts\\\\dbt init)",
+      "PowerShell(C:\\\\Python312\\\\python -m venv .venv)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\python --version)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\pip install dbt-postgres)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\dbt debug)",
+      "Bash(dbt debug *)"
+    ]
+  }
+}
