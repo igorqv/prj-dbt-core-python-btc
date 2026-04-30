@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(export DBT_PROFILES_DIR=C:/igorqv-git/prj-dbt-core-python-btc)",
+      "Bash(dbt debug *)",
+      "Bash(export DB_HOST_PROD=dpg-d7oafepkh4rs73bm18g0-a.ohio-postgres.render.com)",
+      "Bash(export DB_PORT_PROD=5432)",
+      "Bash(export DB_NAME_PROD=dbcrypto_tf00)",
+      "Bash(export DB_USER_PROD=postgresiqv)",
+      "Bash(export DB_PASS_PROD='Fw6l1J33PO31X03Qu58PygtgfZQ8nGS4')",
+      "Bash(export DB_SCHEMA_PROD=public)",
+      "Bash(uv install *)"
+    ]
+  }
+}

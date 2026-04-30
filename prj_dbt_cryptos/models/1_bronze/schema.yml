@@ -1,0 +1,30 @@
+
+version: 2
+
+sources:
+  - name: dbcrypto_tf00
+    schema: public
+    tables:
+      - name: tbcryptos
+        description: "tabela de criptomoedas"
+        columns:
+          - name: Date
+            description: "data de fechamento da cotação"
+          - name: Close
+            description: "preço de fechamento da cotação"
+          - name: simbolo
+            description: "ticker da criptomoeda"
+
+      - name: action_cripto
+        description: "tabela de movimentcao de trade de criptomoedas"
+        columns:
+          - name: date
+            description: "data do trade"
+          - name: symbol
+            description: "símbolo da criptomoeda"
+          - name: action
+            description: "tipo de ação (compra/venda)"
+          - name: quantity  
+            description: "quantidade de criptomoedas negociadas"
+          - name: price
+            description: "preço da criptomoeda no momento do trade"
